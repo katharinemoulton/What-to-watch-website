@@ -7,85 +7,154 @@
 
 	<body>
 		<div class="container-fluid">
-			<!-- This is where the header begins -->
+			<!-- This is where the header is -->
 			<div class="row">
 				<!-- This is the title-->
-				<div class="col-md-8 offset-md-2 title">
-					<div>
-
-					</div>
-				</div>
+				<button onclick="#document.location='/index.html'" class="col-md-8 offset-md-2 title">
+					<span>
+						WHAT TO WATCH
+					</span>
+					<span>
+						A SELECTION OF THE BEST SHOWS AND FILMS AVAILABLE ON NETFLIX UK
+					</span>
+				</button>
 				<!-- This is the bucket-->
 				<div class="col-md-2 bucket">
-
-				</div>
-			</div>
-
-			<!-- This is where the content begins -->
-			<div class="row">
-				<div class="col-md offset-md-2 category">
-					<div class="category-title"></div>
-					<div class="category-picture"></div>
-				</div>
-				<div class="col-md category">
-					<div class="category-title"></div>
-					<div class="category-picture"></div>
-				</div>
-				<div class="col-md category">
-					<div class="category-title"></div>
-					<div class="category-picture"></div>
-				</div>
-				<div class="col-md-2"></div>
-			</div>
-			<div class="row">
-				<div class="col-md offset-md-2 category">
-					<div class="category-title"></div>
-					<div class="category-picture"></div>
-				</div>
-				<div class="col-md category">
-					<div class="category-title"></div>
-					<div class="category-picture"></div>
-				</div>
-				<div class="col-md category">
-					<div class="category-title"></div>
-					<div class="category-picture"></div>
-				</div>
-				<div class="col-md-2"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 offset-md-2 below-content-button">
 					<div>
-
-					</div>
-				</div>
-				<div class="col-md-4 below-content-button">
-					<div>
-
+						<img src="images/popcorn.svg">
+						<img src="images/happy.svg">
+						<img src="images/sad.svg">
+						<img src="images/tired.svg">
+						<img src="images/stressed.svg">
+						<img src="images/curious.svg">
+						<img src="images/romantic.svg">
 					</div>
 				</div>
 			</div>
+
+			<!-- This is where the content are -->
+			<div class="categories-holder">
+				<div class="categories">
+					<div class="category">
+						<div class="category-title">
+							<span>I'M FEELING...</span>
+							<span>HAPPY</span>
+						</div>
+						<button class="category-picture">
+							<img src="images/happy.svg">
+						</button>
+					</div>
+					<div class="category">
+						<div class="category-title">
+							<span>I'M FEELING...</span>
+							<span>SAD</span>
+						</div>
+						<button class="category-picture">
+							<img src="images/sad.svg">
+						</button>
+					</div>
+					<div class="category">
+						<div class="category-title">
+							<span>I'M FEELING...</span>
+							<span>TIRED</span>
+						</div>
+						<button class="category-picture">
+							<img src="images/tired.svg">
+						</button>
+					</div>
+					<div class="category">
+						<div class="category-title">
+							<span>I'M FEELING...</span>
+							<span>STRESSED</span>
+						</div>
+						<button class="category-picture">
+							<img src="images/stressed.svg">
+						</button>
+					</div>
+					<div class="category">
+						<div class="category-title">
+							<span>I'M FEELING...</span>
+							<span>CURIOUS</span>
+						</div>
+						<button class="category-picture">
+							<img src="images/curious.svg">
+						</button>
+					</div>
+					<div class="category">
+						<div class="category-title">
+							<span>I'M FEELING...</span>
+							<span>ROMANTIC</span>
+						</div>
+						<button class="category-picture">
+							<img src="images/romantic.svg">
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- This is where the underneath buttons are -->
+			<div class="row">
+				<div class="col-12 col-lg-4 offset-lg-2 below-content-button">
+					<button>
+						<span>I'M FEELING LUCKY!</span>
+						<span>CLICK HERE TO GENERATE A</span>
+						<span>RANDOM RECOMMENDATION!</span>
+					</button>
+				</div>
+				<div class="col-12 col-lg-4 below-content-button">
+					<button>
+						<span>NOT SURE?</span>
+						<span>CLICK HERE TO TAKE OUR MOOD QUIZ AND</span>
+						<span>GET A PERSONALISED RECOMMENDATION!</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- This is where the code first info is -->
 			<div class="row">
 				<div class="col-md-8 offset-md-2 footer" id="code-first-info">
 					<div>
-
+						<span>THIS WEBSITE WAS CREATED AS PART OF A CODE FIRST: GIRLS BEGINNERS CODING COURSE.</span>
+						<span>FEEL FREE TO CONTACT US TO FIND OUT MORE!</span>
 					</div>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
+
+			<!-- This is where the author info is -->
 			<div class="row">
-				<div class="col-md-4 offset-md-2 footer" id="author-name-and-email">
+				<div class="col-12 col-md-8 offset-md-2 footer" id="author-name-and-email">
 					<div>
-
+						<span>JOANNA RUTKOWSKA:</span><span>jmr27@st-andrews.ac.uk</span>
+						<div>
+							<img onclick="document.location='https://www.linkedin.com/in/joanna-rutkowska-889b3712a/'" src="images/linkedin.png">
+							<img onclick="document.location='https://github.com/vithica'" src="images/github.png">
+						</div>
+					</div>
+					<div>
+						<span>HEATHER DICKINSON:</span><span>hds2@st-andrews.ac.uk</span>
+						<div>
+							<img onclick="document.location='https://www.linkedin.com/in/heather-dickinson-94283b147/'" src="images/linkedin.png">
+							<img onclick="document.location='https://github.com/heatherd95'" src="images/github.png">
+						</div>
+					</div>
+					<div>
+						<span>KATHARINE MOULTON:</span><span>km267@st-andrews.ac.uk</span>
+						<div>
+							<img onclick="document.location='https://www.linkedin.com/in/katharinemoulton/'" src="images/linkedin.png">
+							<img onclick="document.location='https://github.com/katharinemoulton'" src="images/github.png">
+						</div>
+					</div>
+					<div>
+						<br>
+						<div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><!---->
 					</div>
 				</div>
-				<div class="col-md-4 footer" id="author-social-links">
+				<div class="col-12 col-md-2 footer" id="page-social-links">
 					<div>
-
-					</div>
-				</div>
-				<div class="col-md-2 footer" id="page-social-links">
-					<div>
-
+						<img onclick="document.location='https://www.facebook.com'" src="images/facebook.png">
+						<img onclick="document.location='https://www.twitter.com'" src="images/twitter.svg">
+						<img onclick="document.location='https://www.instagram.com'" src="images/insta.svg">
 					</div>
 				</div>
 			</div>
