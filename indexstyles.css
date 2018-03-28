@@ -51,6 +51,30 @@ body {
     transform: translate(70px, -750px) scale(0.2);
 }
 
+/* Place emotion*/
+
+.emotion {
+  margin-top: 15px;
+  margin-bottom: -15px;
+
+  height: 160px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.emotion div {
+    height: 120px;
+    width: 120px;
+
+    min-height: 120px;
+    min-width: 120px;
+    /*background: whitesmoke;*/
+}
+
+
 /* Title and Subtitle*/
 .title {
     margin-top: 15px;
