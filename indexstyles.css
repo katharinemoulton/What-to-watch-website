@@ -125,11 +125,20 @@ body {
     height: 40px;
     width: 200px;
 
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.category-info {
+  height: 160px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .category-picture {
@@ -153,8 +162,8 @@ body {
 }
 
 .category-picture > img {
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 150px;
 }
 
 
