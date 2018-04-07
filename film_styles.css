@@ -67,6 +67,6 @@ input[type="submit"] {
 a:hover{
   text-decoration: none;
 }
-a:link{
+a{
   color: #B9090B;
 }
