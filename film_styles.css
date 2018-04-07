@@ -1,3 +1,16 @@
 .container{
-display: inline-block;
+margin: 60px;
+}
+#description{
+  margin: auto 0px;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+img{
+  height: 200px;
+  width: 100px;
 }
