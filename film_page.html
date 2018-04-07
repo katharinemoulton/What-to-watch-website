@@ -2,9 +2,9 @@
 <html>
 <head>
   <title> What to watch </title>
-  <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="indexstyles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="indexstyles.css">
+  <link rel="stylesheet" href="film_styles.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
@@ -13,11 +13,11 @@
     <div class="row">
       <!-- This is the title-->
       <button onclick="#document.location='/index.html'" class="col-md-8 offset-md-2 title">
-        <span>
+        <span id="redTitle">
           WHAT TO WATCH
         </span>
         <span>
-          A SELECTION OF THE BEST SHOWS AND FILMS AVAILABLE ON NETFLIX UK
+          A SELECTION OF THE BEST SHOWS AND FILMS AVAILABLE ON <span> <span id="redTitle"> NETFLIX UK
         </span>
       </button>
       <!-- This is the bucket-->
@@ -33,6 +33,112 @@
         </div>
       </div>
     </div>
+  </div>
 
+<!-- BREAK -->
+  <div class="col-xs-12" id="break">
+  </div>
+
+<!-- this is actual body content with film description and the poster-->
+  <div class="container-fluid body">
+  <div class="row">
+    <div class="col-sm-5 body" id="poster">
+    <img src="https://cougarcourier.com/wp-content/uploads/2017/05/A-series-of-unfortunate-events.jpg"/>
+    </div>
+    <div class="col-sm-7 body" id="description">
+      <h1> A Series of Unfortunate Events</h1>
+      <span><strong>Starring:</strong> Neil Patrick Harris,
+                      Patrick Warburton <br/>
+                      <strong>Ratings:</strong> IMDB: 7.9/10, Rotten Tomatoes: 93% <br/>
+                      <strong>First episode:</strong> 2017 </span>
+      <p> Lemony Snicket's A Series of Unfortunate Events, or simply A Series of Unfortunate Events, is an American black comedy-drama web television series from Netflix, developed by Mark Hudis and Barry Sonnenfeld, based on the children's novel series of the same name by Lemony Snicket. </p>
+      <p id="wiki"> Description source: A Series of Unfortunate Events (TV series). (n.d.). In <em>Wikipedia</em>. Retrieved April 07, 2018, from <a href="https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)"> https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)</a>.</p>
+      <center><iframe width="460" height="230" src="https://www.youtube.com/embed/Tup-5yOcJuM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-xs-12" id="break">
+  </div>
+
+
+<!-- this is where the footer will be with share and comment options -->
+<div class="container-fluid body">
+  <div class="row">
+    <div class="col-sm-6 user-experience">
+      <!-- This line would be probably different font from other text -->
+      <span> <strong>SHARE THIS PAGE</strong></span>
+    <div id='social-buttons'>
+      <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+      <button class='btn btn-primary btn-lg btn-facebook'>Facebook</button>
+      <button class='btn btn-primary btn-lg btn-email'>Email</button>
+    </div>
+  </div>
+    <div class="col-sm-6 send-comment">
+      <span> After you watch this position, tell us if you liked it </span>
+      <form class="form-block">
+        <div class="form-group">
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="It was the best thing I've watched in a long time!">
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- BREAK -->
+<div class="col-xs-12" id="break">
+</div>
+
+<!-- This is where the code first info is -->
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-8 offset-md-2 footer" id="code-first-info">
+    <div>
+      <span>THIS WEBSITE WAS CREATED AS PART OF A CODE FIRST: GIRLS BEGINNERS CODING COURSE.</span>
+      <span>FEEL FREE TO CONTACT US TO FIND OUT MORE!</span>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<!-- This is where the author info is -->
+<div class="row">
+  <div class="col-12 col-md-8 offset-md-2 footer" id="author-name-and-email">
+    <div>
+      <span>JOANNA RUTKOWSKA:</span><span>jmr27@st-andrews.ac.uk</span>
+      <div>
+        <img onclick="document.location='https://www.linkedin.com/in/joanna-rutkowska-889b3712a/'" src="images/linkedin.png">
+        <img onclick="document.location='https://github.com/vithica'" src="images/github.png">
+      </div>
+    </div>
+    <div>
+      <span>HEATHER DICKINSON:</span><span>hsd2@st-andrews.ac.uk</span>
+      <div>
+        <img onclick="document.location='https://www.linkedin.com/in/heather-dickinson-94283b147/'" src="images/linkedin.png">
+        <img onclick="document.location='https://github.com/heatherd95'" src="images/github.png">
+      </div>
+    </div>
+    <div>
+      <span>KATHARINE MOULTON:</span><span>km267@st-andrews.ac.uk</span>
+      <div>
+        <img onclick="document.location='https://www.linkedin.com/in/katharinemoulton/'" src="images/linkedin.png">
+        <img onclick="document.location='https://github.com/katharinemoulton'" src="images/github.png">
+      </div>
+    </div>
+    <div>
+      <br>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><!---->
+    </div>
+  </div>
+  <div class="col-12 col-md-2 footer" id="page-social-links">
+    <div>
+      <img onclick="document.location='https://www.facebook.com'" src="images/facebook.png">
+      <img onclick="document.location='https://www.twitter.com'" src="images/twitter.svg">
+      <img onclick="document.location='https://www.instagram.com'" src="images/insta.svg">
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>
