@@ -1,7 +1,10 @@
 /*Put shared styles here*/
 /*E.g*/
-div.example {
+/*div.example {
     background: black;
 font-size: 14px;
 
+}*/
+body{
+  background: rgba(0,0,0,0.92)!important;
 }
