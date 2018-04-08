@@ -5,14 +5,18 @@
 #poster img{
   width: 385px;
   height: 550px;
+  vertical-align: middle;
 }
 #poster{
   padding: 10px 10px 10px 50px;
   text-align: center;
+  max-height: 600px;
+  line-height: 600px;
 }
 #description{
   padding: 0px 50px 10px 50px;
   text-align: justify;
+  max-height: 600px;
 }
 #description h1{
   text-align: center;
@@ -31,6 +35,7 @@ div p{
   text-align: center;
   font-size: 18px;
   font-family: Helvetica;
+  padding-top: 15px;
 }
 input {
   border: 0;
@@ -69,4 +74,51 @@ a:hover{
 }
 a{
   color: #B9090B;
+}
+
+iframe{
+  width: 460px;
+  height: 250px;
+}
+
+/* Screen size changes */
+
+@media screen and (max-width: 1100px) {
+  iframe{
+    width: 300px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 950px) {
+  #poster img{
+    width: 315px;
+    height: 460px;
+    vertical-align: top;
+  }
+  h1{
+    font-size: 26px;
+    color: #B9090B;
+  }
+  #break{
+    width: 5px;
+    height: 5px;
+  }
+  #description{
+    padding: 10px 10px 10px 10px;
+  }
+  #poster {
+    padding: 10px 10px 10px 10px;
+  }
+  .send-comment{
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .row{
+    display: inline-block;
+  }
+  #poster{
+    height: 480px;
+  }
 }

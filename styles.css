@@ -7,6 +7,7 @@ font-size: 14px;
 }*/
 body{
   background: rgba(0,0,0,0.92)!important;
+  font-family: Arial, cursive!important;
 }
 /* Title and Subtitle*/
 .title {
@@ -100,4 +101,43 @@ body{
     justify-content: center;
     align-items: center;
 
+}
+
+/* Screen size changes for title, logo, and code first information*/
+@media screen and (min-width: 1100px) {
+    .title span:first-child {
+        font-size: 64px;
+    }
+    .title span:last-child {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: auto;
+        padding: 5px;
+
+    }
+    .title span:first-child {
+        font-size: 24px;
+    }
+    .title span:last-child {
+        font-size: 8px;
+    }
+
+    .categories {
+        padding: 0;
+    }
+    .category {
+        margin: 0!important;
+        width: 100% !important;
+    }
+    .category > * {
+        width: 100%!important;
+    }
+    .title{
+      margin: 0 auto; 
+    }
 }
