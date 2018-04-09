@@ -8,13 +8,12 @@
   vertical-align: middle;
 }
 #poster{
-  padding: 10px 10px 10px 50px;
   text-align: center;
   max-height: 600px;
   line-height: 600px;
 }
 #description{
-  padding: 0px 50px 10px 50px;
+  padding: 0px 40px 10px 50px;
   text-align: justify;
   max-height: 600px;
 }
@@ -53,6 +52,7 @@ input[type="submit"] {
 .btn-twitter {
  background: #00acee;
  border-color: #009ad5;
+ color: white;
 }
 .btn-facebook {
  background: #4868ac;
