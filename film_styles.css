@@ -8,7 +8,6 @@
   vertical-align: middle;
 }
 #poster{
-  text-align: center;
   max-height: 600px;
   line-height: 600px;
 }
@@ -54,17 +53,33 @@ input[type="submit"] {
  border-color: #009ad5;
  color: white;
 }
+.btn-twitter:hover{
+  background: #008BC7;
+  border-color: #008BC7;
+}
 .btn-facebook {
  background: #4868ac;
  border-color: #314776;
 }
-.btn-email {
+.btn-facebook:hover{
+  background: #314776;
+  border-color: #314776;
+}
+.btn-email{
   background: #B9090B;
   border-color: #B9090B;
+}
+.btn-email:hover{
+  background: #8B0000;
+  border-color: #8B0000;
 }
 .submit{
   background: #B9090B;
   border-color: #B9090B;
+}
+.submit:hover{
+  background: #8B0000;
+  border-color: #8B0000;
 }
 #wiki{
   font-size: 12px;
@@ -83,16 +98,18 @@ iframe{
 
 /* Screen size changes */
 
-@media screen and (max-width: 1100px) {
+/*@media screen and (max-width: 1100px) {
   iframe{
     width: 300px;
     height: 150px;
   }
 }
-@media screen and (max-width: 950px) {
+*/
+
+@media screen and (max-width: 1000px) {
   #poster img{
-    width: 315px;
-    height: 460px;
+    width: 250px;
+    height: 365px;
     vertical-align: top;
   }
   h1{
@@ -112,6 +129,13 @@ iframe{
   .send-comment{
     padding-right: 10px;
   }
+  iframe{
+    width: 300px;
+    height: 150px;
+  }
+  .container{
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -119,6 +143,6 @@ iframe{
     display: inline-block;
   }
   #poster{
-    height: 480px;
+    height: 400px;
   }
 }
