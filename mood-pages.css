@@ -1,0 +1,300 @@
+/* Fonts and colours etc*/
+
+.title {
+  /*color:rgb(185,9,11);*/
+  color: red;
+}
+
+body{
+  color: white!important;
+}
+
+/* Place emotion*/
+
+.emotion {
+  margin-top: 15px;
+  margin-bottom: -15px;
+
+  height: 160px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.emotion div {
+    height: 120px;
+    width: 120px;
+
+    min-height: 120px;
+    min-width: 120px;
+    /*background: whitesmoke;*/
+}
+
+/* Titles */
+h4 {
+  color: rgb(185,9,11);
+}
+
+
+/* Categories */
+.categories-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    max-width: 1360px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.category {
+    margin: 15px;
+    height: 400px;
+    width: 320px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.category-picture, .below-content-button div {
+    background: whitesmoke;
+
+}
+
+.category-title {
+    height: 100px;
+    width: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-info {
+  height: 250px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.category-picture {
+    height: 160px;
+    width: 200px;
+
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-picture:hover {
+    background: #dddddd;
+}
+
+.category-picture:active {
+    background: pink;
+}
+
+.category-picture > img {
+    width: 175px;
+    height: 150px;
+}
+
+
+/* Screen Size Changes */
+@media screen and (min-width: 1953px) {
+    .categories {
+        padding-left: 300px!important;
+        padding-right: 300px!important;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .title span:first-child {
+        font-size: 64px;
+    }
+    .title span:last-child {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .below-content-button > button > span {
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: auto;
+        padding: 5px;
+
+    }
+    .title span:first-child {
+        font-size: 24px;
+    }
+    .title span:last-child {
+        font-size: 8px;
+    }
+
+    .categories {
+        padding: 0;
+    }
+    .category {
+        margin: 0!important;
+        width: 100% !important;
+    }
+    .category > * {
+        width: 100%!important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer {
+        font-size: x-small;
+    }
+}
+
+/* Below Categories Buttons */
+
+.below-content-button {
+    height: 100px;
+    padding: 15px;
+}
+
+.below-content-button * {
+    height: 70px;
+    width: 100%;
+    color: black;
+
+    background: whitesmoke;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-content-button > button > span {
+    min-width: 300px;
+    background: inherit;
+    color: inherit;
+}
+
+.below-content-button button:hover {
+    background: #dddddd;
+}
+
+.below-content-button button:active {
+    background: pink;
+}
+
+/* Begin Footer */
+
+.footer {
+    height: 70px;
+    padding: 6px;
+}
+
+/* Code First Information */
+
+#code-first-info {
+    padding-bottom: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Author Details and Author Social Buttons */
+
+#author-name-and-email, #page-social-links {
+    height: 100px;
+    padding-top: 3px;
+}
+
+#author-social-links div {
+    height: 91px;
+}
+
+#author-name-and-email {
+    height: 98px;
+}
+
+#author-name-and-email > div {
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#author-name-and-email > div > div > img {
+    height: 12px;
+}
+
+#author-name-and-email > div > div > img:hover {
+    background: red;
+}
+
+#author-name-and-email > div > div > img:active {
+    background: darkgoldenrod;
+}
+
+
+/* Common Social Buttons*/
+
+#page-social-links {
+    padding-top: 40px;
+}
+
+#page-social-links div {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-social-links > div > img {
+    height: 50px;
+}
+
+#page-social-links > div > img:hover {
+    background: red;
+}
+
+#page-social-links > div > img:active {
+    background: darkgoldenrod;
+}
