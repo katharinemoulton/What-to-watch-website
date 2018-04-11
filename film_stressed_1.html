@@ -5,6 +5,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="film_styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="film_script.js">
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -12,7 +17,7 @@
     <!-- This is where the header is -->
     <div class="row">
       <!-- This is the title-->
-      <button onclick="#document.location='/index.html'" class="col-md-8 offset-md-2 title">
+      <button onclick="#document.location='/index.html'" class="col-md-8 offset-md-1 title">
         <span id="redTitle">
           WHAT TO WATCH
         </span>
@@ -52,7 +57,7 @@
                       <strong>Ratings:</strong> IMDB: 7.9/10, Rotten Tomatoes: 93% <br/>
                       <strong>First episode:</strong> 2017 </span>
       <p> Lemony Snicket's A Series of Unfortunate Events, or simply A Series of Unfortunate Events, is an American black comedy-drama web television series from Netflix, developed by Mark Hudis and Barry Sonnenfeld, based on the children's novel series of the same name by Lemony Snicket. </p>
-      <p id="wiki"> Description source: A Series of Unfortunate Events (TV series). (n.d.). In <em>Wikipedia</em>. Retrieved April 07, 2018, from <a href="https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)" target="_blank"> https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)</a>.</p>
+      <p class="wiki"> Description source: A Series of Unfortunate Events (TV series). (n.d.). In <em>Wikipedia</em>. Retrieved April 07, 2018, from <a href="https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)" target="_blank"> https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)</a>.</p>
       <center><iframe src="https://www.youtube.com/embed/Tup-5yOcJuM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
     </div>
   </div>
@@ -78,7 +83,7 @@
       <h6>After you watch this position, tell us if you liked it </h6>
       <form class="form-block">
         <div class="form-group">
-          <input type="text" class="form-control" id="exampleInputName2" placeholder="It was the best thing I've watched in a long time!">
+          <input type="text" class="form-control" placeholder="It was the best thing I've watched in a long time!">
         </div>
         <button type="submit" class="btn btn-primary btn-lg submit">Submit</button>
       </form>

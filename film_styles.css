@@ -81,7 +81,7 @@ input[type="submit"] {
   background: #8B0000;
   border-color: #8B0000;
 }
-#wiki{
+.wiki{
   font-size: 12px;
 }
 a:hover{
