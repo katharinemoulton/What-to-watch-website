@@ -51,6 +51,7 @@ input[type="submit"] {
 .send-comment{
   text-align: center;
 }
+/*
 .btn-twitter {
  background: #00acee;
  border-color: #009ad5;
@@ -75,7 +76,7 @@ input[type="submit"] {
 .btn-email:hover{
   background: #8B0000;
   border-color: #8B0000;
-}
+}*/
 .submit{
   background: #B9090B;
   border-color: #B9090B;
