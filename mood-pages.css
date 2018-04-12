@@ -1,6 +1,7 @@
 /* Fonts and colours etc*/
 
 .title {
+  /*color:rgb(185,9,11);*/
   color:rgb(185,9,11);
 }
 
@@ -45,8 +46,8 @@ h4 {
 }
 
 .categories {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
 
     max-width: 1360px;
 
@@ -119,6 +120,14 @@ h4 {
 .category-picture > img {
     width: 175px;
     height: 150px;
+}
+
+
+/* Editing of links*/
+#link1{
+  text-decoration: none;
+  background: inherit;
+  color: inherit;
 }
 
 
