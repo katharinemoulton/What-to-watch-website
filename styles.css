@@ -43,6 +43,14 @@ body{
 .title span:last-child {
     font-size: 12px;
 }
+.redTitle{
+  color: rgb(185,9,11);
+  font-family: 'Londrina Solid', cursive;
+}
+#whiteTitle{
+  color: white;
+  font-family: 'Do Hyeon', sans-serif;
+}
 
 /* Logo */
 .bucket {
