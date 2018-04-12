@@ -21,8 +21,13 @@
 body{
   color: white!important;
 }
-#redTitle{
+<<<<<<< HEAD
+.redTitle{
   color: red;
+=======
+#redTitle{
+  color: rgb(185,9,11);
+>>>>>>> df86ed6e232aec763420fada4d63f5b54b576020
   font-family: 'Londrina Solid', cursive;
 }
 #whiteTitle{
