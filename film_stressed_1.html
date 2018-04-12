@@ -10,11 +10,19 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="film_script.js">
-  </script>
+  <script src="film_script.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <div class="container">
     <!-- This is where the header is -->
     <div class="row">
@@ -76,9 +84,11 @@
       <!-- This line would be probably different font from other text -->
     <h4> <strong>SHARE THIS PAGE</strong></h4>
     <div id='social-buttons'>
-      <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
-      <button class='btn btn-primary btn-lg btn-facebook'>Facebook</button>
-      <button class='btn btn-primary btn-lg btn-email'>Email</button>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><button class='btn btn-primary btn-lg btn-twitter'>Twitter</button></a>
+      <a href="https://www.facebook.com/codefirstgirls/">
+      <button class='btn btn-primary btn-lg btn-facebook'>Facebook</button></a>
+      <form action="mailto:sinister.vithica@gmail.com" class="form1" method="post" enctype="text/plain">
+      <button type="submit" class='btn btn-primary btn-lg btn-email' value="Send">Email</button></form>
     </div>
   </div>
     <div class="col-sm-6 send-comment">

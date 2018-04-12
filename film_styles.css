@@ -110,6 +110,12 @@ iframe{
 #smallBreak{
   height: 7px;
 }
+.form1{
+  display: inline;
+}
+
+
+
 /* Screen size changes */
 
 @media screen and (max-width: 1200px) {
