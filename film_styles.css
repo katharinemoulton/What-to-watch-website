@@ -24,6 +24,10 @@ body{
 }
 #redTitle{
   color: red;
+  font-family: 'Londrina Solid', cursive;
+}
+#whiteTitle{
+  font-family: 'Do Hyeon', sans-serif;
 }
 div p{
   padding-top: 10px;
@@ -46,7 +50,6 @@ input[type="submit"] {
 }
 .send-comment{
   text-align: center;
-  padding-right: 160px;
 }
 .btn-twitter {
  background: #00acee;
@@ -95,16 +98,21 @@ iframe{
   width: 460px;
   height: 250px;
 }
+.form-control{
+  width: 300px;
+}
 
+#smallBreak{
+  height: 7px;
+}
 /* Screen size changes */
 
-/*@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   iframe{
     width: 300px;
     height: 150px;
   }
 }
-*/
 
 @media screen and (max-width: 1000px) {
   #poster img{
@@ -128,10 +136,6 @@ iframe{
   }
   .send-comment{
     padding-right: 10px;
-  }
-  iframe{
-    width: 300px;
-    height: 150px;
   }
   .container{
     margin: 0 auto;

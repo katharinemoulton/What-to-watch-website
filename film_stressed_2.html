@@ -3,6 +3,8 @@
 <head>
   <title> What to watch </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="film_styles.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -21,9 +23,9 @@
         <span id="redTitle">
           WHAT TO WATCH
         </span>
-        <span>
-          A SELECTION OF THE BEST SHOWS AND FILMS AVAILABLE ON <span> <span id="redTitle"> NETFLIX UK
-        </span>
+        <span id="whiteTitle">
+          A SELECTION OF THE BEST SHOWS AND FILMS AVAILABLE ON </span> <span id="redTitle"> NETFLIX UK
+        </span></span>
       </button>
       <!-- This is the bucket-->
       <div class="col-md-2 bucket">
@@ -80,11 +82,10 @@
   </div>
     <div class="col-sm-6 send-comment">
       <h6>After you watch this position, tell us if you liked it </h6>
-      <form class="form-block">
-        <div class="form-group">
-          <input type="text" class="form-control" id="exampleInputName2" placeholder="It was the best thing I've watched in a long time!">
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg submit">Submit</button>
+      <form action="mailto:sinister.vithica@gmail.com" class="form-block" method="post" enctype="text/plain">
+          <center><input type="text" name="Stressed1: my comment " class="form-control" placeholder="It was the best thing I've ever watched!"></center>
+          <div id="smallBreak"></div>
+        <button type="submit" class="btn btn-primary btn-lg submit" value="Send">Submit</button>
       </form>
     </div>
   </div>
