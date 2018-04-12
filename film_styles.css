@@ -93,7 +93,11 @@ a:hover{
 a{
   color: #B9090B;
 }
-
+#link1{
+  text-decoration: none;
+  background: inherit;
+  color: inherit;
+}
 iframe{
   width: 460px;
   height: 250px;
