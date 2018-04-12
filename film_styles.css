@@ -22,7 +22,7 @@ body{
   color: white!important;
 }
 #redTitle{
-  color: red;
+  color: rgb(185,9,11);
   font-family: 'Londrina Solid', cursive;
 }
 #whiteTitle{
