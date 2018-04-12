@@ -1,7 +1,6 @@
 /* Fonts and colours etc*/
 
 .title {
-  /*color:rgb(185,9,11);*/
   color:rgb(185,9,11);
 }
 
@@ -121,15 +120,6 @@ h4 {
     width: 175px;
     height: 150px;
 }
-
-
-/* Editing of links*/
-#link1{
-  text-decoration: none;
-  background: inherit;
-  color: inherit;
-}
-
 
 /* Screen Size Changes */
 @media screen and (min-width: 1953px) {
