@@ -154,6 +154,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.category-title > span:first-child {
+  color: whitesmoke!important;
+}
+.category-title > span:last-child{
+  color: red!important;
+}
 
 .category-info {
   height: 160px;
