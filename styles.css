@@ -51,7 +51,11 @@ body{
   color: white;
   font-family: 'Do Hyeon', sans-serif;
 }
-
+#link1{
+  text-decoration: none;
+  background: inherit;
+  color: inherit;
+}
 /* Logo */
 .bucket {
     margin-top: 15px;
