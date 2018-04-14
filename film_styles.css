@@ -167,4 +167,7 @@ iframe{
   .description{
     width: 700px;
   }
+  #code-first-info{
+    padding-top: 20px;
+  }
 }

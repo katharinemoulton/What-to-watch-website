@@ -10,7 +10,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="film_script.js"></script>
+  <script src="film_script.js">
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -49,22 +50,23 @@
   <div class="container body">
   <div class="row">
     <div class="col-sm-5 body" id="poster">
-    <img class="img-responsive center-block" alt="Responsive-image" src="https://cougarcourier.com/wp-content/uploads/2017/05/A-series-of-unfortunate-events.jpg"/>
+    <img class="img-responsive center-block" alt="Pulp Fiction poster" src="https://cdn2.bigcommerce.com/server5000/yshlhd/products/5013/images/133210/full.pulpfiction_6115__52510.1520720080.1280.1280.jpg?c=2"/>
     </div>
     <div class="col-sm-7 body" id="description">
-      <h1> A Series of Unfortunate Events</h1>
+      <h1>A Series of Unfortunate Events</h1>
       <span><strong>Starring:</strong> Neil Patrick Harris,
                       Patrick Warburton <br/>
                       <strong>Ratings:</strong> IMDB: 7.9/10, Rotten Tomatoes: 93% <br/>
                       <strong>First episode:</strong> 2017 </span>
-      <p> Lemony Snicket's A Series of Unfortunate Events, or simply A Series of Unfortunate Events, is an American black comedy-drama web television series from Netflix, developed by Mark Hudis and Barry Sonnenfeld, based on the children's novel series of the same name by Lemony Snicket. </p>
-      <p class="wiki"> Description source: A Series of Unfortunate Events (TV series). (n.d.). In <em>Wikipedia</em>. Retrieved April 07, 2018, from <a href="https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)" target="_blank"> https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)</a>.</p>
+
+      <p>Lemony Snicket's A Series of Unfortunate Events, or simply A Series of Unfortunate Events, is an American black comedy-drama web television series from Netflix, developed by Mark Hudis and Barry Sonnenfeld, based on the children's novel series of the same name by Lemony Snicket.</p>
+      <p class="wiki"> Description source: A Series of Unfortunate Events (TV series). (n.d.). In <em>Wikipedia</em>. Retrieved April 07, 2018, from <a href="https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)" target="_blank">https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_(TV_series)</a>.</p>
       <center><iframe src="https://www.youtube.com/embed/Tup-5yOcJuM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
     </div>
   </div>
   </div>
 
-  <div class="col-xs-12" class="break">
+  <div class="col-xs-12" id="break">
   </div>
 
 
@@ -75,11 +77,9 @@
       <!-- This line would be probably different font from other text -->
     <h4> <strong>SHARE THIS PAGE</strong></h4>
     <div id='social-buttons'>
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"><button class='btn btn-primary btn-lg btn-twitter'>Twitter</button></a>
-      <a href="https://www.facebook.com/codefirstgirls/">
-      <button class='btn btn-primary btn-lg btn-facebook'>Facebook</button></a>
-      <form action="mailto:sinister.vithica@gmail.com" class="form1" method="post" enctype="text/plain">
-      <button type="submit" class='btn btn-primary btn-lg btn-email' value="Send">Email</button></form>
+      <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+      <button class='btn btn-primary btn-lg btn-facebook'>Facebook</button>
+      <button class='btn btn-primary btn-lg btn-email'>Email</button>
     </div>
   </div>
     <div class="col-sm-6 send-comment">
@@ -94,7 +94,7 @@
 </div>
 
 <!-- BREAK -->
-<div class="col-xs-12 break">
+<div class="col-xs-12" class="break">
 </div>
 
 <!-- This is where the code first info is -->
@@ -106,7 +106,6 @@
       <!--<span>FEEL FREE TO CONTACT US TO FIND OUT MORE!</span>-->
     </div>
   </div>
-</div>
 </div>
 </body>
 </html>
