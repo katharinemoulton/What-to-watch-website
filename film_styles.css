@@ -7,13 +7,13 @@
   vertical-align: middle;
 }
 #poster{
-  max-height: 600px;
-  line-height: 600px;
+  max-height: 630px;
+  line-height: 630px;
 }
 #description{
   padding: 0px 40px 10px 50px;
   text-align: justify;
-  max-height: 600px;
+  max-height: 630px;
 }
 #description h1{
   text-align: center;
