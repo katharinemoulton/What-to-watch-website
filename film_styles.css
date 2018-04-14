@@ -159,5 +159,12 @@ iframe{
   }
   #poster{
     height: 400px;
+    text-align: center;
+  }
+  .send-comment{
+    padding-top: 20px;
+  }
+  .description{
+    width: 700px;
   }
 }
