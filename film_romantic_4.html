@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> What to watch </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="film_styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="film_script.js">
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <!-- This is where the header is -->
+    <div class="row">
+      <!-- This is the title-->
+      <button class="col-md-8 offset-md-2 title"> <a href="https://heatherd95.github.io/What-to-watch-website/index.html" id="link1">
+        <span class="redTitle">
+          WHAT TO WATCH
+        </span><br>
+        <span id="whiteTitle">
+          A SELECTION OF THE BEST SHOWS AND FILMS AVAILABLE ON </span> <span class="redTitle"> NETFLIX UK
+        </span></a>
+      </button>
+      <!-- This is the bucket-->
+      <div class="col-md-2 bucket">
+        <div>
+          <img src="images/popcorn.svg">
+          <img src="images/happy.svg">
+          <img src="images/sad.svg">
+          <img src="images/tired.svg">
+          <img src="images/stressed.svg">
+          <img src="images/curious.svg">
+          <img src="images/romantic.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- BREAK -->
+  <div class="col-xs-12 break">
+  </div>
+
+<!-- this is actual body content with film description and the poster-->
+  <div class="container body">
+  <div class="row">
+    <div class="col-sm-5 body" id="poster">
+    <img class="img-responsive center-block" alt="Movie poster" src="https://s-media-cache-ak0.pinimg.com/originals/72/b3/1f/72b31f3471165a7e25f1167c6b5a6861.jpg"/>
+    </div>
+    <div class="col-sm-7 body" id="description">
+      <h1>How I Met Your Mother</h1>
+      <span><strong>Starring:</strong> Josh Radnor, Neil Patrick Harris <br/>
+                      <strong>Ratings:</strong> IMDB: 8.4/10, Rotten Tomatoes: 80% <br/>
+                      <strong>First episode:</strong> 2005</span>
+      <p>It is an American sitcom that originally aired on CBS from September 19, 2005, to March 31, 2014. The series follows the main character, Ted Mosby, and his group of friends in New York City's Manhattan. As a framing device, Ted, in the year 2030, recounts to his son and daughter the events that led him to meet their mother.</p>
+      <p class="wiki">Description source: How I Met Your Mother. (n.d.). In <em>Wikipedia</em>. Retrieved April 14, 2018, from <a href="https://en.wikipedia.org/wiki/How_I_Met_Your_Mother" target="_blank">https://en.wikipedia.org/wiki/How_I_Met_Your_Mother</a>.</p>
+      <center><iframe src="https://www.youtube.com/embed/C8-4jMTOUJI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-xs-12" id="break">
+  </div>
+
+
+<!-- this is where the footer will be with share and comment options -->
+<div class="container body">
+  <div class="row">
+    <div class="col-sm-6 user-experience">
+      <!-- This line would be probably different font from other text -->
+    <h4> <strong>SHARE THIS PAGE</strong></h4>
+    <div id='social-buttons'>
+      <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+      <button class='btn btn-primary btn-lg btn-facebook'>Facebook</button>
+      <button class='btn btn-primary btn-lg btn-email'>Email</button>
+    </div>
+  </div>
+    <div class="col-sm-6 send-comment">
+      <h6>After you watch this position, tell us if you liked it </h6>
+      <form action="mailto:sinister.vithica@gmail.com" class="form-block" method="post" enctype="text/plain">
+          <center><input type="text" name="Stressed1: my comment " class="form-control" placeholder="It was the best thing I've ever watched!"></center>
+          <div id="smallBreak"></div>
+        <button type="submit" class="btn btn-primary btn-lg submit" value="Send">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- BREAK -->
+<div class="col-xs-12" class="break">
+</div>
+
+<!-- This is where the code first info is -->
+<div class="container">
+<div class="row">
+  <div class="col-md-12 footer" id="code-first-info">
+    <div>
+      <span>THIS WEBSITE WAS CREATED AS PART OF A CODE FIRST: GIRLS BEGINNERS CODING COURSE.</span>
+      <!--<span>FEEL FREE TO CONTACT US TO FIND OUT MORE!</span>-->
+    </div>
+  </div>
+</div>
+</body>
+</html>
